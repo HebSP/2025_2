@@ -18,9 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5964304d-ebe7-447f-af37-975913575d6e" name="Changes" comment="teste1">
-      <change afterPath="$PROJECT_DIR$/PI/cripto.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/cripto.c" beforeDir="false" afterPath="$PROJECT_DIR$/PI/cripto.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/HebSP/2025_2.git&quot;,
-    &quot;accountId&quot;: &quot;ab5def8e-bcb5-4eb1-9d80-149972ca7818&quot;
+    &quot;accountId&quot;: &quot;de71a095-5545-43d9-81ef-5f8fd08eb6a0&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -111,7 +111,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "C/C++ File.cripto.c.executor": "Run",
+    "C/C++ File.cripto.c.executor": "Debug",
     "C/C++ File.descobridordos7mares.c.executor": "Run",
     "C/C++ File.teste1.c.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -187,6 +187,8 @@
       <workItem from="1762351349557" duration="752000" />
       <workItem from="1762794702553" duration="427000" />
       <workItem from="1762795148048" duration="10126000" />
+      <workItem from="1762866353500" duration="81000" />
+      <workItem from="1762866444924" duration="2224000" />
     </task>
     <task id="LOCAL-00001" summary="teste1">
       <option name="closed" value="true" />
@@ -240,7 +242,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/PI/cripto.c</url>
-          <line>76</line>
+          <line>79</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
