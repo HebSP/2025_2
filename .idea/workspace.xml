@@ -18,11 +18,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5964304d-ebe7-447f-af37-975913575d6e" name="Changes" comment="teste1">
-      <change afterPath="$PROJECT_DIR$/PI/lista2/q1_hsp2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PI/lista2/q2_hsp2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PI/lista2/q3_hsp2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/fila/fila.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/fila/fila.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/pilha/pilha.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/pilha/pilha.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PI/sinais.c" beforeDir="false" afterPath="$PROJECT_DIR$/PI/sinais.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/HebSP/2025_2.git&quot;,
-    &quot;accountId&quot;: &quot;de71a095-5545-43d9-81ef-5f8fd08eb6a0&quot;
+    &quot;accountId&quot;: &quot;b4fe7f0e-5921-4a41-a727-e561ae456f0c&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -64,19 +64,21 @@
   "keyToString": {
     "C/C++ File.cripto.c.executor": "Run",
     "C/C++ File.descobridordos7mares.c.executor": "Run",
-    "C/C++ File.lista.executor": "Run",
+    "C/C++ File.lista.executor": "Debug",
+    "C/C++ File.pilha.executor": "Run",
     "C/C++ File.sinais.executor": "Run",
     "C/C++ File.teste1.c.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/CIN/hsp2/CLionProjects/2025_2/PI/lista2/q2_hsp2.c",
+    "last_opened_file_path": "/home/CIN/hsp2/CLionProjects/2025_2/PI/pilha/pilha.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,9 +91,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PI" />
+      <recent name="$PROJECT_DIR$/PI/pilha" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.lista">
+  <component name="RunManager" selected="C/C++ File.pilha">
     <configuration name="cripto.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2025_2" TARGET_NAME="cripto.c" CONFIG_NAME="cripto.c">
       <option name="sourceFile" value="$PROJECT_DIR$/PI/cripto.c" />
       <method v="2">
@@ -110,6 +113,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pilha" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2025_2" TARGET_NAME="pilha" CONFIG_NAME="pilha">
+      <option name="sourceFile" value="$PROJECT_DIR$/PI/pilha/pilha.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="teste1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2025_2" TARGET_NAME="teste1.c" CONFIG_NAME="teste1.c">
       <option name="sourceFile" value="PI/teste1.c" />
       <method v="2">
@@ -119,6 +128,7 @@
     <list>
       <item itemvalue="C/C++ File.cripto.c" />
       <item itemvalue="C/C++ File.lista" />
+      <item itemvalue="C/C++ File.pilha" />
       <item itemvalue="C/C++ File.descobridordos7mares.c" />
       <item itemvalue="C/C++ File.teste1.c" />
     </list>
@@ -153,6 +163,8 @@
       <workItem from="1762870420544" duration="24000" />
       <workItem from="1762884504912" duration="4345000" />
       <workItem from="1762970179402" duration="10036000" />
+      <workItem from="1763555847068" duration="84000" />
+      <workItem from="1763555949409" duration="5926000" />
     </task>
     <task id="LOCAL-00001" summary="teste1">
       <option name="closed" value="true" />
@@ -239,5 +251,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
