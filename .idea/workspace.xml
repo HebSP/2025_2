@@ -18,10 +18,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5964304d-ebe7-447f-af37-975913575d6e" name="Changes" comment="teste1">
-      <change afterPath="$PROJECT_DIR$/PI/fila/fila.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PI/fila/fila.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PI/pilha/pilha.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PI/pilha/pilha.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/arvore/arvorebinaria.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/listaencadeada/listaduplaencadeada.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/listaencadeada/listaduplaencadeada.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/listaencadeada/listaencadeada.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/listaencadeada/listaencadeada.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/HebSP/2025_2.git&quot;,
-    &quot;accountId&quot;: &quot;b4fe7f0e-5921-4a41-a727-e561ae456f0c&quot;
+    &quot;accountId&quot;: &quot;608bbdf6-714e-41c9-82c0-c57325f96217&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -62,6 +63,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "C/C++ File.arvorebinaria.c.executor": "Run",
     "C/C++ File.cripto.c.executor": "Run",
     "C/C++ File.descobridordos7mares.c.executor": "Run",
     "C/C++ File.lista.executor": "Debug",
@@ -78,7 +80,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/CIN/hsp2/CLionProjects/2025_2/PI/pilha/pilha.c",
+    "last_opened_file_path": "/home/CIN/hsp2/CLionProjects/2025_2/PI/arvore/arvorebinaria.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,10 +93,17 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PI" />
+      <recent name="$PROJECT_DIR$/PI/lista2" />
       <recent name="$PROJECT_DIR$/PI/pilha" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.pilha">
+  <component name="RunManager" selected="C/C++ File.arvorebinaria.c">
+    <configuration name="arvorebinaria.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2025_2" TARGET_NAME="arvorebinaria.c" CONFIG_NAME="arvorebinaria.c">
+      <option name="sourceFile" value="$PROJECT_DIR$/PI/arvore/arvorebinaria.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cripto.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2025_2" TARGET_NAME="cripto.c" CONFIG_NAME="cripto.c">
       <option name="sourceFile" value="$PROJECT_DIR$/PI/cripto.c" />
       <method v="2">
@@ -129,6 +138,7 @@
       <item itemvalue="C/C++ File.cripto.c" />
       <item itemvalue="C/C++ File.lista" />
       <item itemvalue="C/C++ File.pilha" />
+      <item itemvalue="C/C++ File.arvorebinaria.c" />
       <item itemvalue="C/C++ File.descobridordos7mares.c" />
       <item itemvalue="C/C++ File.teste1.c" />
     </list>
@@ -165,6 +175,8 @@
       <workItem from="1762970179402" duration="10036000" />
       <workItem from="1763555847068" duration="84000" />
       <workItem from="1763555949409" duration="5926000" />
+      <workItem from="1764163947543" duration="75000" />
+      <workItem from="1764164041898" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="teste1">
       <option name="closed" value="true" />
